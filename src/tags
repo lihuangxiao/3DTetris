@@ -1,0 +1,249 @@
+$(TARGET	Makefile	/^$(TARGET):  $(OBJECTS)  $/
+.C.o	Makefile	/^.C.o:$/
+.SUFFIXES	Makefile	/^.SUFFIXES: .o .c .cpp .cc .cxx .C$/
+.c.o	Makefile	/^.c.o:$/
+.cc.o	Makefile	/^.cc.o:$/
+.cpp.o	Makefile	/^.cpp.o:$/
+.cxx.o	Makefile	/^.cxx.o:$/
+/usr/lib/x86_64-linux-gnu/libQt5Core.prl	Makefile	/^\/usr\/lib\/x86_64-linux-gnu\/libQt5Core.prl:$/
+/usr/lib/x86_64-linux-gnu/libQt5Gui.prl	Makefile	/^\/usr\/lib\/x86_64-linux-gnu\/libQt5Gui.prl:$/
+/usr/lib/x86_64-linux-gnu/libQt5OpenGL.prl	Makefile	/^\/usr\/lib\/x86_64-linux-gnu\/libQt5OpenGL.prl:$/
+/usr/lib/x86_64-linux-gnu/libQt5Widgets.prl	Makefile	/^\/usr\/lib\/x86_64-linux-gnu\/libQt5Widgets.prl:$/
+/usr/share/qt5/mkspecs/common/g++-base.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/g++-base.conf:$/
+/usr/share/qt5/mkspecs/common/g++-unix.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/g++-unix.conf:$/
+/usr/share/qt5/mkspecs/common/gcc-base-unix.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/gcc-base-unix.conf:$/
+/usr/share/qt5/mkspecs/common/gcc-base.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/gcc-base.conf:$/
+/usr/share/qt5/mkspecs/common/linux.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/linux.conf:$/
+/usr/share/qt5/mkspecs/common/shell-unix.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/shell-unix.conf:$/
+/usr/share/qt5/mkspecs/common/unix.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/common\/unix.conf:$/
+/usr/share/qt5/mkspecs/features/c++11.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/c++11.prf:$/
+/usr/share/qt5/mkspecs/features/default_post.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/default_post.prf:$/
+/usr/share/qt5/mkspecs/features/default_pre.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/default_pre.prf:$/
+/usr/share/qt5/mkspecs/features/exceptions.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/exceptions.prf:$/
+/usr/share/qt5/mkspecs/features/exclusive_builds.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/exclusive_builds.p/
+/usr/share/qt5/mkspecs/features/lex.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/lex.prf:$/
+/usr/share/qt5/mkspecs/features/moc.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/moc.prf:$/
+/usr/share/qt5/mkspecs/features/qt.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/qt.prf:$/
+/usr/share/qt5/mkspecs/features/qt_config.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/qt_config.prf:$/
+/usr/share/qt5/mkspecs/features/qt_functions.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/qt_functions.prf:$/
+/usr/share/qt5/mkspecs/features/resolve_config.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/resolve_config.prf/
+/usr/share/qt5/mkspecs/features/resources.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/resources.prf:$/
+/usr/share/qt5/mkspecs/features/spec_post.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/spec_post.prf:$/
+/usr/share/qt5/mkspecs/features/spec_pre.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/spec_pre.prf:$/
+/usr/share/qt5/mkspecs/features/testcase_targets.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/testcase_targets.p/
+/usr/share/qt5/mkspecs/features/uic.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/uic.prf:$/
+/usr/share/qt5/mkspecs/features/unix/default_pre.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/unix\/default_pre.p/
+/usr/share/qt5/mkspecs/features/unix/gdb_dwarf_index.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/unix\/gdb_dwarf_ind/
+/usr/share/qt5/mkspecs/features/unix/opengl.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/unix\/opengl.prf:$/
+/usr/share/qt5/mkspecs/features/unix/thread.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/unix\/thread.prf:$/
+/usr/share/qt5/mkspecs/features/warn_on.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/warn_on.prf:$/
+/usr/share/qt5/mkspecs/features/wayland-scanner.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/wayland-scanner.pr/
+/usr/share/qt5/mkspecs/features/yacc.prf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/features\/yacc.prf:$/
+/usr/share/qt5/mkspecs/linux-g++-64/qmake.conf	Makefile	/^\/usr\/share\/qt5\/mkspecs\/linux-g++-64\/qmake.conf:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_bootstrap.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_bootstrap.pr/
+/usr/share/qt5/mkspecs/modules/qt_lib_concurrent.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_concurrent.p/
+/usr/share/qt5/mkspecs/modules/qt_lib_core.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_core.pri:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_dbus.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_dbus.pri:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_gui.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_gui.pri:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_network.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_network.pri:/
+/usr/share/qt5/mkspecs/modules/qt_lib_opengl.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_opengl.pri:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_platformsupport.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_platformsupp/
+/usr/share/qt5/mkspecs/modules/qt_lib_printsupport.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_printsupport/
+/usr/share/qt5/mkspecs/modules/qt_lib_sql.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_sql.pri:$/
+/usr/share/qt5/mkspecs/modules/qt_lib_testlib.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_testlib.pri:/
+/usr/share/qt5/mkspecs/modules/qt_lib_widgets.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_widgets.pri:/
+/usr/share/qt5/mkspecs/modules/qt_lib_xml.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/modules\/qt_lib_xml.pri:$/
+/usr/share/qt5/mkspecs/qconfig.pri	Makefile	/^\/usr\/share\/qt5\/mkspecs\/qconfig.pri:$/
+APIENTRY	Viewer.cpp	94
+APIENTRY	Viewer.cpp	95
+APPWINDOW_HPP	AppWindow.hpp	2
+AR	Makefile	/^AR            = ar cqs$/
+AppWindow	AppWindow.hpp	11
+AppWindow.o	Makefile	/^AppWindow.o: AppWindow.cpp \/usr\/include\/qt5\/QtWidg/
+AppWindow::AppWindow	AppWindow.cpp	/^AppWindow::AppWindow() {$/
+AppWindow::createActions	AppWindow.cpp	/^void AppWindow::createActions() {$/
+AppWindow::createMenu	AppWindow.cpp	/^void AppWindow::createMenu() {$/
+AppWindow::keyPressEvent	AppWindow.cpp	/^void AppWindow::keyPressEvent(QKeyEvent *event) {$/
+AppWindow::m_menu_actions	AppWindow.hpp	28
+AppWindow::m_menu_app	AppWindow.hpp	26
+AppWindow::m_viewer	AppWindow.hpp	29
+AppWindow::metaObject	moc_AppWindow.cpp	/^const QMetaObject *AppWindow::metaObject() const$/
+AppWindow::qt_metacall	moc_AppWindow.cpp	/^int AppWindow::qt_metacall(QMetaObject::Call _c, i/
+AppWindow::qt_metacast	moc_AppWindow.cpp	/^void *AppWindow::qt_metacast(const char *_clname)$/
+AppWindow::qt_static_metacall	moc_AppWindow.cpp	/^void AppWindow::qt_static_metacall(QObject *_o, QM/
+AppWindow::staticMetaObject	moc_AppWindow.cpp	62
+CC	Makefile	/^CC            = gcc$/
+CFLAGS	Makefile	/^CFLAGS        = -m64 -pipe -O2 -Wall -W -D_REENTRA/
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/
+COPY	Makefile	/^COPY          = cp -f$/
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/
+CS488_GAME_HPP	game.hpp	16
+CS488_VIEWER_HPP	Viewer.hpp	2
+CXX	Makefile	/^CXX           = g++$/
+CXXFLAGS	Makefile	/^CXXFLAGS      = -m64 -pipe -W -Wall -g -O2 -std=c+/
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT/
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/
+DESTDIR	Makefile	/^DESTDIR       = $/
+DIST	Makefile	/^DIST          = \/usr\/share\/qt5\/mkspecs\/features\/sp/
+FORCE	Makefile	/^FORCE:$/
+GL_MULTISAMPLE	Viewer.cpp	10
+Game	game.hpp	46
+Game::Game	game.cpp	/^Game::Game(int width, int height)$/
+Game::board_	game.hpp	126
+Game::board_height_	game.hpp	118
+Game::board_width_	game.hpp	117
+Game::collapse	game.cpp	/^int Game::collapse() $/
+Game::doesPieceFit	game.cpp	/^bool Game::doesPieceFit(const Piece& p, int x, int/
+Game::drop	game.cpp	/^bool Game::drop()$/
+Game::generateNewPiece	game.cpp	/^void Game::generateNewPiece() $/
+Game::get	game.cpp	/^int Game::get(int r, int c) const$/
+Game::get	game.cpp	/^int& Game::get(int r, int c) $/
+Game::getHeight	game.hpp	/^  int getHeight() const$/
+Game::getWidth	game.hpp	/^  int getWidth() const$/
+Game::moveLeft	game.cpp	/^bool Game::moveLeft()$/
+Game::moveRight	game.cpp	/^bool Game::moveRight()$/
+Game::piece_	game.hpp	122
+Game::placePiece	game.cpp	/^void Game::placePiece(const Piece& p, int x, int y/
+Game::px_	game.hpp	123
+Game::py_	game.hpp	124
+Game::removePiece	game.cpp	/^void Game::removePiece(const Piece& p, int x, int /
+Game::removeRow	game.cpp	/^void Game::removeRow(int y)$/
+Game::reset	game.cpp	/^void Game::reset()$/
+Game::rotateCCW	game.cpp	/^bool Game::rotateCCW() $/
+Game::rotateCW	game.cpp	/^bool Game::rotateCW() $/
+Game::stopped_	game.hpp	120
+Game::tick	game.cpp	/^int Game::tick()$/
+Game::~Game	game.cpp	/^Game::~Game()$/
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt5\/mkspecs\/linux-g++/
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/
+LFLAGS	Makefile	/^LFLAGS        = -m64 -Wl,-O1$/
+LIBS	Makefile	/^LIBS          = $(SUBLIBS) -L\/usr\/X11R6\/lib64 -lQt/
+LINK	Makefile	/^LINK          = g++$/
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/
+MOVE	Makefile	/^MOVE          = mv -f$/
+Makefile	Makefile	/^Makefile: game488.pro \/usr\/share\/qt5\/mkspecs\/linux/
+Mmain.cpp	main.cpp	/^int main(int argc, char** argv)$/
+Mshader.frag	shader.frag	/^void main()$/
+Mshader.vert	shader.vert	/^void main()$/
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/
+PIECES	game.cpp	19
+Piece	game.hpp	18
+Piece::Piece	game.cpp	/^Piece::Piece(const char *desc, int cindex, $/
+Piece::Piece	game.cpp	/^Piece::Piece()$/
+Piece::cindex_	game.hpp	42
+Piece::desc_	game.hpp	41
+Piece::getBottomMargin	game.cpp	/^int Piece::getBottomMargin() const$/
+Piece::getColourIndex	game.cpp	/^int Piece::getColourIndex() const$/
+Piece::getColumn	game.cpp	/^void Piece::getColumn(int col, char *buf) const$/
+Piece::getColumnRev	game.cpp	/^void Piece::getColumnRev(int col, char *buf) const/
+Piece::getLeftMargin	game.cpp	/^int Piece::getLeftMargin() const$/
+Piece::getRightMargin	game.cpp	/^int Piece::getRightMargin() const$/
+Piece::getTopMargin	game.cpp	/^int Piece::getTopMargin() const$/
+Piece::isOn	game.cpp	/^bool Piece::isOn(int row, int col) const$/
+Piece::margins_	game.hpp	43
+Piece::operator =	game.cpp	/^Piece& Piece::operator =(const Piece& other)$/
+Piece::rotateCCW	game.cpp	/^Piece Piece::rotateCCW() const$/
+Piece::rotateCW	game.cpp	/^Piece Piece::rotateCW() const$/
+QMAKE	Makefile	/^QMAKE         = \/usr\/lib\/x86_64-linux-gnu\/qt5\/bin\//
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = game488$/
+QT_MOC_LITERAL	moc_AppWindow.cpp	/^#define QT_MOC_LITERAL(idx, ofs, len) \\$/
+QT_MOC_LITERAL	moc_AppWindow.cpp	36
+QT_MOC_LITERAL	moc_Viewer.cpp	/^#define QT_MOC_LITERAL(idx, ofs, len) \\$/
+QT_MOC_LITERAL	moc_Viewer.cpp	36
+RANLIB	Makefile	/^RANLIB        = $/
+SED	Makefile	/^SED           = sed$/
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/
+STRIP	Makefile	/^STRIP         = strip$/
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/
+TAR	Makefile	/^TAR           = tar -cf$/
+TARGET	Makefile	/^TARGET        = game488$/
+Viewer	Viewer.hpp	16
+Viewer.o	Makefile	/^Viewer.o: Viewer.cpp \/usr\/include\/qt5\/QtWidgets\/Qt/
+Viewer::Viewer	Viewer.cpp	/^Viewer::Viewer(const QGLFormat& format, QWidget *p/
+Viewer::getCameraMatrix	Viewer.cpp	/^QMatrix4x4 Viewer::getCameraMatrix() {$/
+Viewer::initializeGL	Viewer.cpp	/^void Viewer::initializeGL() {$/
+Viewer::mModelMatrices	Viewer.hpp	67
+Viewer::mMvpMatrixLocation	Viewer.hpp	64
+Viewer::mPerspMatrix	Viewer.hpp	66
+Viewer::mProgram	Viewer.hpp	71
+Viewer::mTimer	Viewer.hpp	70
+Viewer::mTransformMatrix	Viewer.hpp	68
+Viewer::mVertexArrayObject	Viewer.hpp	58
+Viewer::mVertexBufferObject	Viewer.hpp	57
+Viewer::mVertexBufferObject	Viewer.hpp	60
+Viewer::mVertexLocation	Viewer.hpp	63
+Viewer::metaObject	moc_Viewer.cpp	/^const QMetaObject *Viewer::metaObject() const$/
+Viewer::minimumSizeHint	Viewer.cpp	/^QSize Viewer::minimumSizeHint() const {$/
+Viewer::mouseMoveEvent	Viewer.cpp	/^void Viewer::mouseMoveEvent ( QMouseEvent * event /
+Viewer::mousePressEvent	Viewer.cpp	/^void Viewer::mousePressEvent ( QMouseEvent * event/
+Viewer::mouseReleaseEvent	Viewer.cpp	/^void Viewer::mouseReleaseEvent ( QMouseEvent * eve/
+Viewer::paintGL	Viewer.cpp	/^void Viewer::paintGL() {$/
+Viewer::qt_metacall	moc_Viewer.cpp	/^int Viewer::qt_metacall(QMetaObject::Call _c, int /
+Viewer::qt_metacast	moc_Viewer.cpp	/^void *Viewer::qt_metacast(const char *_clname)$/
+Viewer::qt_static_metacall	moc_Viewer.cpp	/^void Viewer::qt_static_metacall(QObject *_o, QMeta/
+Viewer::resizeGL	Viewer.cpp	/^void Viewer::resizeGL(int width, int height) {$/
+Viewer::rotateWorld	Viewer.cpp	/^void Viewer::rotateWorld(float angle, float x, flo/
+Viewer::scaleWorld	Viewer.cpp	/^void Viewer::scaleWorld(float x, float y, float z)/
+Viewer::sizeHint	Viewer.cpp	/^QSize Viewer::sizeHint() const {$/
+Viewer::staticMetaObject	moc_Viewer.cpp	62
+Viewer::translateWorld	Viewer.cpp	/^void Viewer::translateWorld(float x, float y, floa/
+Viewer::~Viewer	Viewer.cpp	/^Viewer::~Viewer() {$/
+all	Makefile	/^all: Makefile $(TARGET)$/
+check	Makefile	/^check: first$/
+clean	Makefile	/^clean:compiler_clean $/
+compiler_clean	Makefile	/^compiler_clean: compiler_moc_header_clean $/
+compiler_lex_clean	Makefile	/^compiler_lex_clean:$/
+compiler_lex_make_all	Makefile	/^compiler_lex_make_all:$/
+compiler_moc_header_clean	Makefile	/^compiler_moc_header_clean:$/
+compiler_moc_header_make_all	Makefile	/^compiler_moc_header_make_all: moc_AppWindow.cpp mo/
+compiler_moc_source_clean	Makefile	/^compiler_moc_source_clean:$/
+compiler_moc_source_make_all	Makefile	/^compiler_moc_source_make_all:$/
+compiler_rcc_clean	Makefile	/^compiler_rcc_clean:$/
+compiler_rcc_make_all	Makefile	/^compiler_rcc_make_all:$/
+compiler_uic_clean	Makefile	/^compiler_uic_clean:$/
+compiler_uic_make_all	Makefile	/^compiler_uic_make_all:$/
+compiler_wayland-client-header_clean	Makefile	/^compiler_wayland-client-header_clean:$/
+compiler_wayland-client-header_make_all	Makefile	/^compiler_wayland-client-header_make_all:$/
+compiler_wayland-code_clean	Makefile	/^compiler_wayland-code_clean:$/
+compiler_wayland-code_make_all	Makefile	/^compiler_wayland-code_make_all:$/
+compiler_wayland-server-header_clean	Makefile	/^compiler_wayland-server-header_clean:$/
+compiler_wayland-server-header_make_all	Makefile	/^compiler_wayland-server-header_make_all:$/
+compiler_yacc_decl_clean	Makefile	/^compiler_yacc_decl_clean:$/
+compiler_yacc_decl_make_all	Makefile	/^compiler_yacc_decl_make_all:$/
+compiler_yacc_impl_clean	Makefile	/^compiler_yacc_impl_clean:$/
+compiler_yacc_impl_make_all	Makefile	/^compiler_yacc_impl_make_all:$/
+dist	Makefile	/^dist: $/
+distclean	Makefile	/^distclean: clean$/
+finalColor	shader.frag	5
+first	Makefile	/^first: all$/
+game488.pro	Makefile	/^game488.pro:$/
+install	Makefile	/^install:   FORCE$/
+main.o	Makefile	/^main.o: main.cpp \/usr\/include\/qt5\/QtWidgets\/QAppli/
+moc_AppWindow.cpp	Makefile	/^moc_AppWindow.cpp: \/usr\/include\/qt5\/QtWidgets\/QMai/
+moc_AppWindow.o	Makefile	/^moc_AppWindow.o: moc_AppWindow.cpp $/
+moc_Viewer.cpp	Makefile	/^moc_Viewer.cpp: \/usr\/include\/qt5\/QtOpenGL\/QGLWidge/
+moc_Viewer.o	Makefile	/^moc_Viewer.o: moc_Viewer.cpp $/
+mocables	Makefile	/^mocables: compiler_moc_header_make_all compiler_mo/
+mocclean	Makefile	/^mocclean: compiler_moc_header_clean compiler_moc_s/
+mvpMatrix	shader.vert	4
+qmake	Makefile	/^qmake: FORCE$/
+qmake_all	Makefile	/^qmake_all: FORCE$/
+qt_meta_data_AppWindow	moc_AppWindow.cpp	38
+qt_meta_data_Viewer	moc_Viewer.cpp	38
+qt_meta_stringdata_AppWindow	moc_AppWindow.cpp	30
+qt_meta_stringdata_AppWindow_t	moc_AppWindow.cpp	21
+qt_meta_stringdata_AppWindow_t::data	moc_AppWindow.cpp	22
+qt_meta_stringdata_AppWindow_t::stringdata	moc_AppWindow.cpp	23
+qt_meta_stringdata_Viewer	moc_Viewer.cpp	30
+qt_meta_stringdata_Viewer_t	moc_Viewer.cpp	21
+qt_meta_stringdata_Viewer_t::data	moc_Viewer.cpp	22
+qt_meta_stringdata_Viewer_t::stringdata	moc_Viewer.cpp	23
+uninstall	Makefile	/^uninstall:   FORCE$/
+vert	shader.vert	3

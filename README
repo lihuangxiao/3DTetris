@@ -1,0 +1,24 @@
+Name: 
+Student Number: 
+User-id: 
+Assignment: 
+
+The final executable was compiled on this machine: 
+gl27
+
+How to invoke my program: 
+execute the executable with command: ./game488
+if one run is not successful, close the window and run it again. This happens on gl27, after the program are ran several times.
+
+How to use my extra features: 
+no extra features implemented
+
+I have created the following data files, which are in the data directory:
+no data files created
+
+My program assumes the following: 
+1, user will not want to do rotating&scaling at the same time
+2, user will try to run the program again if the first try didn't succeed
+3, user knows only the x-direction of mouse movement will be detected (when scaling and rotating)
+
+
