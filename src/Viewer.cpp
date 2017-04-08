@@ -50,11 +50,11 @@ void Viewer::initializeGL() {
 
 
     // Enable Depth Testing only once, inside initializeGL()
-//    glEnable(GL_DEPTH_TEST);
+    // glEnable(GL_DEPTH_TEST);
 
     // For back-face-culling
-//    glEnable(GL_CULL_FACE);
-//    glFrontFace(GL_CCW);
+    // glEnable(GL_CULL_FACE);
+    // glFrontFace(GL_CCW);
 
 
 
@@ -85,6 +85,8 @@ void Viewer::initializeGL() {
         return;
     }
 
+
+    // Oh this..
     float cubeData[] = {
         //  X     Y     Z
          0.0f, 0.0f, 0.0f,
@@ -157,11 +159,6 @@ void Viewer::initializeGL() {
     mVertexBufferObject.setUsagePattern(QGLBuffer::StaticDraw);
 
 
-    //////////////////////////////try colour
-  //  mVertexBufferObject2.create();
-  //  mVertexBufferObject.setUsagePattern(QGLBuffer::StaticDraw);
-    ////////////////////////////////////////
-
 
 #endif 
 
@@ -169,13 +166,9 @@ void Viewer::initializeGL() {
         std::cerr << "could not bind vertex buffer to the context." << std::endl;
         return;
     }
-//    mVertexBufferObject.allocate(triangleData, 3 * 3 * sizeof(float));
     mVertexBufferObject.allocate(cubeData, 36 * 3 * sizeof(float));
 
 
-    //////////////////////////////try colour
-//    mVertexBufferObject2.allocate(cubeData, 36 * 3 * sizeof(floar));
-////////////////////////////////////////////
 
 
     mProgram.bind();
@@ -190,9 +183,6 @@ void Viewer::initializeGL() {
 	// Get location value for "fragColor" GLuint
         // Set uniform using that location.
 	GLint colorLocation = mProgram.uniformLocation("frag_color");
-	if (colorLocation == -1) {
-		//cerror << "...";
-	}
 	mProgram.setUniformValue(colorLocation, 0.1f, 0.1f, 0.1f); 
 
 
@@ -205,7 +195,6 @@ void Viewer::paintGL() {
     mVertexArrayObject.bind();
 #endif
     GLint colorLocation = mProgram.uniformLocation("frag_color");
-//    GLint colorLocation2 = mProgram.uniformLocation("frag_color2");
 
     if (colourmode == 2) {
       if (!isfirst) {
@@ -347,11 +336,7 @@ void Viewer::mousePressEvent ( QMouseEvent * event ) {
     mouse = event->button();
     x = event->x();
     mTimer3->stop();
-    // try holding
-//    if (isselfrotating) {
-//      isselfrotating = false;
-//      holding = event->button();
-//    }
+    // holding
     holding += event->button();
     persistence = holding;
 }
@@ -361,18 +346,14 @@ void Viewer::mouseReleaseEvent ( QMouseEvent * event ) {
     x = 0;
     mTimer4->stop();
     (void)event;
-    //std::cout<<num<<std::endl;
     if(((!shift) && (num < 2)) && ismoving) {
       persistence = holding;
       if (holding - event->button() == 0) {
         mTimer3->start(90);
       }
       ismoving = false;
-      //num = 0;
     } else {
       mouse = 0;
-      //num = 0;
-      
     }
     //try holding
     holding -= event->button();
@@ -384,21 +365,7 @@ void Viewer::mouseMoveEvent ( QMouseEvent * event ) {
     num = 0;
     mTimer4->start(1);
     if (!shift) {
-/**      if (mouse == 1) {
-        rotateWorld((event->x() - x), 1.0, 0.0, 0.0);
-        rotatevalue = event->x() - x;
-        x = event->x();
-      } else if (mouse == 4) {
-        rotateWorld((event->x() - x), 0.0, 1.0, 0.0);
-        rotatevalue = event->x() - x;
-        x = event->x();
-      } else if (mouse == 2){
-        rotateWorld((event->x() - x), 0.0, 0.0, 1.0);
-        rotatevalue = event->x() - x;
-        x = event->x();
-      } else {}*/
       rotatevalue = event->x() - x;
-      //x = event->x();
       if (holding == 1) {
         rotateWorld(rotatevalue, 1.0, 0.0, 0.0);
         rotatex += rotatevalue;
@@ -445,7 +412,6 @@ void Viewer::mouseMoveEvent ( QMouseEvent * event ) {
         x = event->x();
       } else {}
     }
-    //ismoving = false;
 }
 
 QMatrix4x4 Viewer::getCameraMatrix() {
@@ -516,48 +482,14 @@ void Viewer::newgame() {
 
 
 void Viewer::onestep() {
-       game->tick();
-/*
-       for (int i = 0; i < 300; i++) {
-         mModelMatrices[i] = {1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1};
-       }
-       numCube = 52;
-      // set the mModelMatrices
-      for (int i = 0; i < 20; i++) {
-        mModelMatrices[i].translate(-6,-10 + i,0);
-      }
-      for (int i = 0; i < 20; i++) {
-        mModelMatrices[i + 20].translate(5,-10 + i,0);
-      }
-      for (int i = 0; i < 10; i++) {
-        mModelMatrices[i + 40].translate(i - 5,-10,0);
-      }
-      mModelMatrices[50].translate(-6,10,0);
-      mModelMatrices[51].translate(5,10,0);
-      //finished the well
-      //game()
-      for (int i = 23; i >= 0; i--) {
-        for (int j = 9; j >= 0; j--) {
-          if (game->get(i,j) != -1) {
-            numCube++;
-            // we have: i - y = 9; j + x = 4
-            mModelMatrices[numCube-1].translate(4-j,i-9,0);
-          }
-        }
-      }
-*/
+      game->tick();
+      // transformations handled in GL code
       update();
 }
 
 void Viewer::rotate() {
-/*    if (mouse == 1) {
-      rotateWorld(rotatevalue, 1.0, 0.0, 0.0);
-    } else if (mouse == 4) {
-      rotateWorld(rotatevalue, 0.0, 1.0, 0.0);
-    } else if (mouse == 2){
-      rotateWorld(rotatevalue, 0.0, 0.0, 1.0);
-    } else {}
-*/
+
+      // use a switch would be better
       if (persistence == 1) {
         rotateWorld(rotatevalue, 1.0, 0.0, 0.0);
         rotatex += rotatevalue;
@@ -617,13 +549,6 @@ void Viewer::doreset() {
     }
   } else {}
   scale = 0;
-
-
-//   rotateWorld (100, 1.0, 0.0, 0.0);
-//   rotateWorld (120, 0.0, 1.0, 0.0);
-//   rotateWorld (-100, 1.0, 0.0, 0.0);
-//   rotateWorld (-120, 0.0, 1.0, 0.0);
-
 
 }
 

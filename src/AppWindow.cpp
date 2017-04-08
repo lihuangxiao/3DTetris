@@ -12,13 +12,10 @@ AppWindow::AppWindow() {
     glFormat.setSampleBuffers(true);
 
     QVBoxLayout *layout = new QVBoxLayout;
-    // m_menubar = new QMenuBar;
     m_viewer = new Viewer(glFormat, this);
     layout->addWidget(m_viewer);
     setCentralWidget(new QWidget);
     centralWidget()->setLayout(layout);
-    // scaleWorld is private, in order to do this we need to set it public...
-    //m_viewer->scaleWorld(0.8, 0.8, 0.8);
     m_viewer->show();
 
     createActions();
@@ -27,6 +24,7 @@ AppWindow::AppWindow() {
 
 void AppWindow::keyPressEvent(QKeyEvent *event) {
     m_viewer->mTimer3->stop();
+    // better use switch for better running time & readability
     if (event->key() == Qt::Key_Escape) {
         QCoreApplication::instance()->quit();
     } else if (event->key() == Qt::Key_Shift) {
@@ -46,11 +44,7 @@ void AppWindow::keyPressEvent(QKeyEvent *event) {
     } else if (event->key() == Qt::Key_Space) {
         m_viewer->game->drop();
         m_viewer->update();
-    }
-
-
-
-      else {
+    } else {
         QWidget::keyPressEvent(event);
     }
 }
@@ -74,7 +68,6 @@ void AppWindow::createActions() {
     //m_menu_actions.push_back(quitAct);
 
     // We set the accelerator keys
-    // Alternatively, you could use: setShortcuts(Qt::CTRL + Qt::Key_P); 
     quitAct->setShortcut(Qt::Key_Q);
 
     // Set the tip
@@ -83,7 +76,6 @@ void AppWindow::createActions() {
     // Connect the action with the signal and slot designated
     connect(quitAct, SIGNAL(triggered()), this, SLOT(close()));
 
-//////////////////////////////////////////////////////////////
     QAction* newgameAct = new QAction(tr("&New game"), this);
     newgameAct->setShortcut(Qt::Key_N);
     newgameAct->setStatusTip(tr("Start a new game"));
@@ -170,12 +162,10 @@ void AppWindow::createMenu() {
 
 void AppWindow::app_newgame() {
   m_viewer->newgame();
-  //m_viewer->game = new Game(10,20);
-  //m_viewer->game->reset();
 
 }
 void AppWindow::app_reset(){
-/*
+/* we don't need this anymore
   rotateWorld(0 - rotatex, 1.0, 0.0, 0.0);
   rotateWolrd(0 - rotatey, 0.0, 1.0, 0.0);
   rotateWorld(0 - rotatez, 0.0, 0.0, 1.0);
