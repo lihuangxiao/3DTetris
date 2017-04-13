@@ -4,7 +4,6 @@
 
 QT += opengl widgets
 CONFIG += c++11
-QMAKE_CXXFLAGS += -W -Wall -g
 TEMPLATE = app
 TARGET = game488
 INCLUDEPATH += .
